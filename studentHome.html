@@ -24,14 +24,46 @@
             </ul>
         </nav>
     </div>
-    <div class="container-fluid p-5 my-5 bg-success text-white">
+    <div class="container-fluid p-5 my-5 bg-success text-black text-center">
         <h1>Welcome, {Student}!</h1>
 
     </div>
-    <div class="container-fluid p-5 my-5 bg-info text-white">
+    <div class="container-fluid p-5 my-5 bg-light text-black">
+        <div class="text-center">
+        <button type="button" style="background-color:rgb(0, 187, 255); padding: 10px 20px;" >Add Course</button>
+        <button type="button" style="background-color:rgb(0, 187, 255);padding: 10px 20px" >Drop Course</button>
+        </div>
+
+        <div class="container-fluid p-5 my-5 bg-info text-black text-left">
+            <p><strong>Course Info</strong></p>
+            <input type="text" id="course-id">
+        </div>
+        <div class="text-center">
+            <button type="button" style="background-color:rgb(0, 187, 255);padding: 10px 40px;">Submit</button>
+        </div>
+        
+        
+
+    </div>
+    <div class="container-fluid p-5 my-5 bg-info text-black text-center">
         <h1> My Courses</h1>
     </div>
-    <div></div>
+
+
+    <div class="container-fluid p-5 my-5 bg-info text-black text-center">
+        <h1>Your Current Courses</h1>
+    </div>
+
+    <div class="container-fluid p-5 my-5 bg-info text-black text-center">
+        <table style = "border: 3px solid black; padding: 10; text-align: left; border-collapse: collapse;">
+            <tr>
+                <th><strong>Course ID</strong></th>
+                <th><strong>Course Name</strong></th>
+                <th><strong> Description</strong></th>
+            </tr>
+        </table>
+
+    </div>
     
 </body>
 </html>
